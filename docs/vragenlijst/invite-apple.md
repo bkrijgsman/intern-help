@@ -40,4 +40,4 @@ In dit artikel wordt alles beschreven met betrekking tot het Apple development a
 | Lastname | Krijgsman |
 | Email | distribution@eventinsight.io |
 | Roles | Admin |
-| Developer Recourses | Access to Certificates, Identifiers & Profiles | 
+| Developer Resources | Access to Certificates, Identifiers & Profiles | 
