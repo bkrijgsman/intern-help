@@ -32,7 +32,7 @@
   
   <script type="text/javascript">
     $( document ).ready(function() {
-        $("img").wrap($('<a>',{
+        $("#main-content img").wrap($('<a>',{
             'class': 'fancyunit',
             'data-fancybox': 'images',
         }));     
@@ -40,28 +40,26 @@
         $('.fancyunit').each( function() {
             console.log($(this));
             $(this).attr('data-caption',$( this ).find('img').attr('alt'));
+            $(this).attr('href',$( this ).find('img').attr('src'));
             
         })
         
-        
+        $.fancybox.defaults.animationEffect = "fade";
         
     });
   </script>
   
   <style type="text/css">
-   .fancybox-content {
-       max-width:80% !important;
-       width: 1200px !important;
-   }    
+   
    
    a img {
        cursor: pointer;
    }
    
    #main-content img {
+       width:100% !important;
        display:block !important;
    }
-    
-    
+
   </style>
 </head>
